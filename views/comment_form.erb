@@ -1,0 +1,11 @@
+<lable>
+  Name:
+  <input type="text" pattern =".{1,}" required title="1 character minimum" minlength="1" name=comment[name] value=<%= @comment.name %>>
+</lable>
+<label>
+  Content:
+  <input type="text" pattern=".{5,}" required title="5 characters minimum" minlength="5" name=comment[content] value=<%= @comment.content %>>
+</label>
+
+<input type="submit" name="save" value="Save">
+<a href="/">Cancel</a>
