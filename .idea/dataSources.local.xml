@@ -4,6 +4,11 @@
     <data-source name="student" uuid="8f014e41-9efe-43f9-87dc-bd104d6ce419">
       <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
       <auth-required>false</auth-required>
+      <introspection-schemas>*:</introspection-schemas>
+    </data-source>
+    <data-source name="development" uuid="ee50d27d-5f5b-4653-b388-55f1a56c79eb">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="SQLITE" exact-version="0" />
+      <auth-required>false</auth-required>
     </data-source>
   </component>
 </project>
